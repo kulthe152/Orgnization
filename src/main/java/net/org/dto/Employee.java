@@ -32,7 +32,20 @@ public class Employee {
 		this.deptName = deptName;
 	}
 	
+	//-------------------change request---------------------------------------
 	
+		public Employee(long eid, String empName, double empSal, String deptName) {
+			super();
+			this.eid = eid;
+			this.empName = empName;
+			this.empSal = empSal;
+			this.deptName = deptName;
+		}
+		@Override
+		public String toString() {
+			return "Employee [eid=" + eid + ", empName=" + empName + ", empSal=" + empSal + ", deptName=" + deptName + "]";
+		}
+		
 	
 }
 
